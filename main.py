@@ -15,11 +15,11 @@ def execute_install():
 
 # Replace 'your_token_here' with your actual PAT
 token = ""
-repoName = "taskscape/Timesheets"
+repoName = ""
 installer_path = r""
 website_name = "MyWebsite"
 configure_iis = True
-install_dir = r"C:\TimeSheetsApp"
+install_dir = r"C:\App"
 
 # Command-line arguments for the installer
 install_arguments = [
