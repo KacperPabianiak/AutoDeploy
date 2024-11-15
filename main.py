@@ -61,7 +61,7 @@ for asset in latest_release.get_assets():
         with open(asset_name, 'wb') as file:
             file.write(response.content)
         print(f"Downloaded {asset_name}")
-        if asset_name.startswith("TimeSheets") and asset_name.endswith(".exe"):
+        if asset_name.startswith("InstallerName") and asset_name.endswith(".exe"):
             installer_path = asset_name
             execute_install()
             break
